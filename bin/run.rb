@@ -1,3 +1,7 @@
 require_relative '../config/environment'
 
-puts "hello world"
+def greet_user
+    puts 'Welcome to Media Commenter!'
+end
+  
+greet_user
