@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_28_071537) do
+ActiveRecord::Schema.define(version: 2021_01_28_194313) do
 
   create_table "comments", force: :cascade do |t|
     t.date "date"
@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(version: 2021_01_28_071537) do
     t.date "date"
     t.string "title"
     t.integer "rating"
-    t.string "category"
   end
 
 end
